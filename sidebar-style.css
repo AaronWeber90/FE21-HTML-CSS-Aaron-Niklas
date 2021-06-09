@@ -10,6 +10,7 @@ main {
 
 aside {
     flex-basis:25%;
+    background-color: rgb(135, 173, 235);
 }
 
 aside a {
@@ -22,4 +23,5 @@ aside a {
     border:1px solid rgb(45, 89, 172);
     color: white;
     border-radius:.5em;
+    margin: 20px;
 }

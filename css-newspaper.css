@@ -33,3 +33,17 @@ footer {
     background-color: rgb(45, 89, 172);
 }
 
+main {
+    min-height: 620px;
+}
+
+.flex-item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+td {
+    padding: 5px;
+}
