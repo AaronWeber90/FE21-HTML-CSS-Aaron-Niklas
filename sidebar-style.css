@@ -11,6 +11,8 @@ main {
 aside {
     flex-basis:25%;
     background-color: rgb(135, 173, 235);
+    display:flex;
+    justify-content: center;
 }
 
 aside a {
