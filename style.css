@@ -1,7 +1,53 @@
 .fav-image {
     width:200px;
+    visibility: visible;
 }
 
 table {
     width: 100%;
 }
+
+body {
+    background-color: bisque;
+}
+
+/* css for Exercise 1 */
+
+.left, .right {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgb(224, 183, 168);
+}
+
+#first p {
+    font-size: 18px;
+}
+
+
+
+/*
+div {
+    visibility: hidden;
+}
+*/
+
+
+
+#first, #second, #fifth, #third > p, h1, #second > * {
+    display:block;
+  }
+
+  /*
+#third > p {
+    display:none;
+}
+
+h1 {
+    display:none;
+}
+
+#second > * {
+    display:none;
+}
+
+*/

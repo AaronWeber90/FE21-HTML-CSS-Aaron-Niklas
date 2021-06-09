@@ -1,0 +1,25 @@
+.flex-container {
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+main {
+    flex-basis:75%;
+}
+
+aside {
+    flex-basis:25%;
+}
+
+aside a {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:.5em;
+    background-color: darkcyan;
+    border:1px solid rgb(45, 89, 172);
+    color: white;
+    border-radius:.5em;
+}
